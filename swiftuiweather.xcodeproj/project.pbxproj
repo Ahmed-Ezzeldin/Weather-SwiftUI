@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		801E39BE282BB3E30068BDE8 /* weather_button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801E39BD282BB3E30068BDE8 /* weather_button.swift */; };
 		806AD3E9282A993F002DDF98 /* swiftuiweatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806AD3E8282A993F002DDF98 /* swiftuiweatherApp.swift */; };
 		806AD3EB282A993F002DDF98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806AD3EA282A993F002DDF98 /* ContentView.swift */; };
 		806AD3ED282A993F002DDF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806AD3EC282A993F002DDF98 /* Assets.xcassets */; };
@@ -34,7 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		806AD3E5282A993F002DDF98 /* swiftuiweather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiweather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		801E39BD282BB3E30068BDE8 /* weather_button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather_button.swift; sourceTree = "<group>"; };
+		806AD3E5282A993F002DDF98 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		806AD3E8282A993F002DDF98 /* swiftuiweatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiweatherApp.swift; sourceTree = "<group>"; };
 		806AD3EA282A993F002DDF98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		806AD3EC282A993F002DDF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,7 +86,7 @@
 		806AD3E6282A993F002DDF98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				806AD3E5282A993F002DDF98 /* swiftuiweather.app */,
+				806AD3E5282A993F002DDF98 /* Weather.app */,
 				806AD3F5282A993F002DDF98 /* swiftuiweatherTests.xctest */,
 				806AD3FF282A993F002DDF98 /* swiftuiweatherUITests.xctest */,
 			);
@@ -98,6 +100,7 @@
 				806AD3EA282A993F002DDF98 /* ContentView.swift */,
 				806AD3EC282A993F002DDF98 /* Assets.xcassets */,
 				806AD3EE282A993F002DDF98 /* Preview Content */,
+				801E39BD282BB3E30068BDE8 /* weather_button.swift */,
 			);
 			path = swiftuiweather;
 			sourceTree = "<group>";
@@ -144,7 +147,7 @@
 			);
 			name = swiftuiweather;
 			productName = swiftuiweather;
-			productReference = 806AD3E5282A993F002DDF98 /* swiftuiweather.app */;
+			productReference = 806AD3E5282A993F002DDF98 /* Weather.app */;
 			productType = "com.apple.product-type.application";
 		};
 		806AD3F4282A993F002DDF98 /* swiftuiweatherTests */ = {
@@ -259,6 +262,7 @@
 			files = (
 				806AD3EB282A993F002DDF98 /* ContentView.swift in Sources */,
 				806AD3E9282A993F002DDF98 /* swiftuiweatherApp.swift in Sources */,
+				801E39BE282BB3E30068BDE8 /* weather_button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +436,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cloudsecret.swiftuiweather;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Weather;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,7 +464,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cloudsecret.swiftuiweather;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Weather;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
